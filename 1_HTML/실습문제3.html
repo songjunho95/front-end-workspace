@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<form>
+    <h2>주문하기</h2>
+    <!-- 
+        name : 서버에 보낼 때 담을 공간명 
+        value :  서버에 보낼 떄 name 공간에 담을 값
+    
+        id : 태그의 고유 명칭 부여
+        for : input의 id와 연결
+    -->
+    <fiedset action="" method="get">
+    <label for="nickname">
+        고객명 : 
+        <input type="text" name="userName" id="nickname">
+        <br />
+        <br />
+    </label>
+    <label for="search">
+        전화번호 : 
+        <input type="text" name="phone" id="search">
+        <br />
+        <br />
+    </label>
+    <label for="search">
+        E-mail : 
+        <input type="text" name="email" id="search">
+        <br />
+        <br />
+    </label>
+    <fieldset>
+    <legend>피자사이즈</legend>
+    <label>
+        <input type="radio" name="size" value="s">Small
+        <input type="radio" name="size" value="m">Medium
+        <input type="radio" name="size" value="l">Large
+    </label>
+</fieldset>
+<br />
+<fieldset>
+<legend>토핑선택</legend>
+<!-- (input:checkbox[name="topping"]+label)*4 -->
+<input type="checkbox" name="topping" value="bacon">베이컨
+<input type="checkbox" name="topping" value="cheese">치즈
+<input type="checkbox" name="topping" value="onion">양파
+<input type="checkbox" name="topping" value="mushroom">버섯
+</fieldset>
+<br />
+<br />
+<br />
+<br />
+</fiedset>
+<label for="time"> 희망 배송 시간 : </label>
+<input type="time" name="time" id="time" />
+<br />
+<label for="memo">배송 시 요청사항 : </label>
+<textarea
+name="memo"
+id="memo"
+placeholder="내용을 입력하세요"
+style="resize: none"
+cols="30"
+rows="10"
+></textarea>
+<button type="submit">주문하기</button>
+</form>
+</body>
