@@ -8,8 +8,8 @@
 }
 
 div {
-    background: teal;
-    color: white;
+    background: teal !important;
+    color: white !important;
     width: 200px;
     height: 200px;
 }
