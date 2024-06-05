@@ -1,0 +1,155 @@
+.header {
+    position: fixed;
+    background-image: url(../../resources/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.4);
+    height:100vh;
+    width: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.header nav {
+    margin-bottom: 100px;
+}
+
+
+
+
+.header h2 {
+    font-size: 5rem;
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+    margin-top: 30px;
+}
+.header a {
+    color: white;
+    display: block;
+    font-size: 1.5rem;
+    margin: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px 20px 20px 320px;
+    display: flex;
+    flex-direction: column;
+}
+.content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.content img {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    align-self: center;
+    margin: 20px;
+}
+.content p {
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body header {
+    background-image: url(../../resources/background.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 100vh;
+    color: aliceblue;
+    position: fixed;
+}
+
+body header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+body nav {
+    display: flex;
+    flex-direction: column;
+}
+body nav {
+    font-size: 3ch;
+    text-align: center;
+    line-height: 1.3;
+}
+body h1 {
+    font-size: 5ch;
+    text-align: center;
+    pos
+}
+
+body nav a {
+    color: aliceblue; 
+}
+
+body2 h1 {
+background-color: aliceblue;
+display: flex;
+width: 50%;
+justify-content: center;
+}
+
+section {
+    padding-left: 20%;
+}
+section h1 {
+    display: flex;
+    justify-content: left;
+}
+section h2 {
+    height: 50ch;
+    background-image: url(../../resources/content.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 70%
+}
+section h2 {
+    display: flex;
+    */
+
+
+
+
+
+
+
+
+

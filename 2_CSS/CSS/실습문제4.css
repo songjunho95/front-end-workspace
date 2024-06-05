@@ -1,0 +1,19 @@
+.container {
+background: linear-gradient(45deg,purple, blue);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.sqaure {
+    background-color: aliceblue;
+    height: 50px;
+    width: 10px;
+    border: 1px solid;
+}
+
+
+
+
+
