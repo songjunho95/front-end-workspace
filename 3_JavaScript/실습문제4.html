@@ -20,7 +20,7 @@
         if (number % 3 === 0) {
           console.log(number);
         }
-        const result = plus(1, 1000);
+        const result = plus(1 <= number <= 1000);
         console.log(result);
       }
     </script>
@@ -28,34 +28,50 @@
     <!-- Q3. 문자열의 문자들을 하나씩 출력하세요 -->
     <script>
       const str = "안녕하세요. 반갑습니다!";
+      console.log("안녕하세요.");
+      console.log("반갑습니다!");
     </script>
-
+s
     <!-- Q4. 배열 값 중 최대값을 출력하세요 -->
     <script>
       const nums = [3, 7, 12, 5, 3];
-    </script>
+      console.log(Math.max(3, 7, 12, 5, 3));    
+      </script>
 
     <!-- Q5. 1 ~ 10 정수 중 소수(1과 자기자신)를 출력하세요
               2, 3, 5, 7
     -->
     <script>
-
+      const result = Math.floor(Math.random() * 10 + 1);
+      console.log(result);
+      console.log("최소값 : ", Math.min(1, 2, 3, 4, 5 ,6 ,7 ,8 ,9, 10));
     </script>
 
     <!-- Q6. 배열 안의 데이터를 모두 2배로 만들어서 출력하세요 -->
     <script>
       const nums2 = [1, 3, 5];
+      console.log(1*2);
+      console.log(3*2);
+      console.log(5*2);
+
     </script>
 
     <!-- Q7. 배열에 있는 데이터들로 합계와 평균을 출력하세요 -->
     <script>
       const nums3 = [90, 85, 70, 86, 97];
+      console.log(90 + 85 + 70 + 86 + 97);
+      console.log[(90 + 85 + 70 + 86 + 97) / 5];
+      
+    
     </script>
 
     <!-- Q8. 두 배열의 각 데이터의 곱셈을 한 데이터들로 이루어진 새로운 배열을 생성하여 출력하세요 -->
     <script>
       const a1 = [12, 0, 2, 5, 4];
       const b1 = [5, 15, 6, 7, 8];
+      console.log(12 * 0 * 2 * 5 * 4);
+      console.log(5 * 15 * 6 * 7 * 8);
+      console.log(0 * 25200);
     </script>
 
     <!-- Q9. 두 배열의 데이터 값이 서로 같은 데이터들만 이루어진 새로운 배열을 생성하여 출력하세요
@@ -74,6 +90,11 @@
         [87, 93, 62, 83], 
         [98, 90, 77, 97], 
       ];
+      console.log(83 + 90 + 70 + 87);
+      console.log(330 / 4);
+
+      console.log(87 + 93 + 62 + 83);
+      console.log(325 / 4);
     </script>
   </body>
 </html>
