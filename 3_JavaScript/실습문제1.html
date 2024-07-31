@@ -21,26 +21,23 @@
            예) 킬로그램 : 60  
      -->
     <script>
-       let 파운드 = 60*2.2;
-       console.log(파운드);
+      console.log("---- Q1 ----");
+      const kg = 60;
+      const lb = kg * 2.2;
+      console.log(lb);
     </script>
-
-
-
 
     <!--
         Q2. 제곱미터를 평으로 환산하여 console에 출력하시오.
            - 평 = 제곱미터 * 0.3
            예) 제곱미터 : 99
     -->
-
-
-    
-<script>
-       let 평 = 99*0.3;
-       console.log(평);
-
-</script>
+    <script>
+      console.log("---- Q2 ----");
+      const m2 = 99;
+      const py = m2 * 0.3;
+      console.log(py);
+    </script>
 
     <!-- 
         Q3. 사다리꼴의 넓이를 구하여 console에 출력하시오.
@@ -48,8 +45,12 @@
            예) 윗변 : 10, 밑변 : 14, 높이 : 4
      -->
     <script>
-      let 사다리꼴의넓이 = (10+14) / 2*4;
-      console.log(사다리꼴의넓이);
+      console.log("---- Q3 ----");
+      const upper = 10;
+      const lower = 14;
+      const height = 4;
+      const trape = ((upper + lower) / 2) * height;
+      console.log(trape);
     </script>
 
     <!-- 
@@ -58,16 +59,20 @@
            - 예) 정기 예금액 : 12,000,000
     -->
     <script>
-       let 월이자 = 120000000*0.04 / 12;
-       console.log(월이자);
+      console.log("---- Q4 ----");
+      const deposit = 12000000;
+      const monthly = (deposit * 0.04) / 12;
+      console.log(monthly);
     </script>
 
     <!-- 
         Q5. 머쓱이는 55살인 선생님이 몇 년도에 태어났는지 궁금해졌다. 나이 age가 주어질 때, 2024년을 기준 출생 연도를 console에 출력하시오.
      -->
     <script>
-       let 출생년도 = 2000 - (55-24);
-       console.log(출생년도);
+      console.log("---- Q5 ----");
+      const age = 55;
+      const year = 2024 - age + 1;
+      console.log(year);
     </script>
 
     <!-- 
@@ -75,11 +80,16 @@
             머쓱이가 가지고 있는 돈이 15,000원 일 때, 머쓱이가 최대로 마실 수 있는 아메리카노의 잔 수와 남는 돈을 console에 출력하시오.
      -->
     <script>
-      let 잔수 = 15000/5500;
-      let 잔돈 = 15000%5500;
-
-      console.log(잔수);
-      console.log(잔돈);
+      console.log("---- Q6 ----");
+      const americano = 5500;
+      const money = 15000;
+      // 최대로 마실 수 있는 아메리카노 잔 수
+      const cups = parseInt(money / americano);
+      // 남은 돈
+      const change = money % americano;
+      console.log(
+        `최대로 마실 수 있는 아메리카노 잔 수는 ${cups}잔, 남은 돈은 ${change}원`
+      );
     </script>
 
     <!-- 
@@ -87,8 +97,14 @@
           양꼬치 64인분과 음료수 6개를 먹었다면 총얼마를 지불해야 하는지 console에 출력하시오.
      -->
     <script>
-    let 총금액 = (12000*64)+(2000*6);
-    console.log(총금액);
+      console.log("---- Q7 ----");
+      const lamb = 64;
+      const drink = 6;
+      const service = parseInt(lamb / 10);
+      const total = lamb * 12000 + (drink - service) * 2000;
+      console.log(total);
     </script>
+
+    
   </body>
 </html>

@@ -1,61 +1,53 @@
 .header {
     position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
     background-image: url(../../resources/background.jpg);
+    background-blend-mode: color;
     background-size: cover;
     background-position: center;
-    background-blend-mode: color;
-    background-color: rgba(0, 0, 0, 0.4);
-    height:100vh;
+    height: 100vh;
     width: 300px;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
-.header nav {
-    margin-bottom: 100px;
-}
-
-
-
-
-.header h2 {
+  }
+  .header h2 {
     font-size: 5rem;
     border-bottom: 2px solid white;
     padding-bottom: 15px;
     margin-top: 30px;
-}
-.header a {
+  }
+  .header nav {
+    margin-bottom: 100px;
+  }
+  .header a {
     color: white;
     display: block;
     font-size: 1.5rem;
     margin: 20px;
     font-weight: bold;
     text-decoration: underline;
-}
-
-.content {
+  }
+  .content {
     padding: 20px 20px 20px 320px;
     display: flex;
     flex-direction: column;
-}
-.content h1 {
+  }
+  .content h1 {
     font-size: 3rem;
     font-weight: bold;
-}
-.content img {
+  }
+  .content img {
     width: 100%;
     max-width: 500px;
-    margin: auto;
     align-self: center;
     margin: 20px;
-}
-.content p {
+  }
+  .content p {
     line-height: 1.5;
-}
-
-
+  }
 
 
 

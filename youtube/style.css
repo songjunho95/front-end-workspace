@@ -1,0 +1,16 @@
+.progress-bar-container {
+position: fixed;
+left: 0;
+top: 0;
+z-index: 100;
+width: 100vw;
+height: 10px; 
+}
+.progress-bar {
+    width : 0;
+    height: 2px;
+    background: #FF0000;
+}
+main nav {
+    position: ;
+}
