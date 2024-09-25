@@ -1,6 +1,23 @@
 import "./assets/App.css";
 import module from "./assets/App.module.css";
 import "./assets/App.scss";
+import styled from "styled-components";
+
+// Styled Components
+const StyledDiv = styled.div`
+  background-color: darkcyan;
+  color: white;
+  text-align: center;
+
+  &:hover {
+    background-color: cornflowerblue;
+  }
+
+  h1 {
+    font-size: 24px;
+    padding: 20px;
+  }
+`;
 
 const App = () => {
   return (
@@ -29,6 +46,11 @@ const App = () => {
       <div className="scss-style">
         <h1>SCSS Style</h1>
       </div>
+
+      {/* Style Components*/}
+      <StyledDiv>
+        <h1>Styled Components</h1>
+      </StyledDiv>
     </>
   );
 };

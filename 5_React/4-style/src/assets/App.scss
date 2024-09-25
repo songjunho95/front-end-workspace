@@ -3,8 +3,29 @@ $bg-color: coral;
 $color: white;
 $padding: 20px;
 
-.scss-style {
-    background-color: $bg-color;
-    color: $color;
+/* 믹스인 */
+@mixin text-center {
     text-align: center;
 }
+
+/* 상속 */
+.border {
+    border: 10px solid wheat;
+}
+
+.scss-style {
+    @include text-center;
+    @extend .border;
+    background-color: $bg-color;
+    color: $color;
+    padding: $padding;
+
+    /* 중첩 */
+    h1 {
+        color: black;
+        &:hover{
+            color: wheat;
+        }
+    }
+}
+
